@@ -1,0 +1,8 @@
+{
+  "serial": "randint",
+  "name": "randstr",
+  "surname": "randstr",
+  "age": "randint(18,100)",
+  "phone": "randint(7)",
+  "job": "jobs.csv"
+}
