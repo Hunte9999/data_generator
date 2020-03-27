@@ -1,5 +1,9 @@
+# Data generator
 
-# Create config file:
+My generator for random data in specified format. Works with multiple threads. Generates up to 1TB data less than in hour.
+It creates as many separate files as many threads you specified.
+
+## Create config file:
 
 json (dict) with keys = column names, values = types
 
@@ -12,3 +16,9 @@ types:
 - randint(a,b) - random int (random(a,b))
 
 3. filename - random element from file with filename
+
+
+## Execute gen_data.py
+
+For help use
+python gen_data.py -h
